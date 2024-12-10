@@ -184,7 +184,7 @@ export default function FarmForm({ initialData, onClose }: FarmFormProps) {
         >
           Cancelar
         </button>
-        
+
         <button
           type="submit"
           className="rounded-md bg-pink-500 px-4 py-2 text-sm font-medium text-white hover:bg-pink-600"

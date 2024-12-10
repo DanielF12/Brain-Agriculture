@@ -33,7 +33,7 @@ export const producerApi = {
     api.put<Farm>(`/producers/${id}`, producer),
   
   delete: (id: number) =>
-    api.delete(`/producers/${id}`),
+    api.delete(`/producers/${id}`), 
   
   getDashboard: () =>
     api.get<DashboardData>('/dashboard')
